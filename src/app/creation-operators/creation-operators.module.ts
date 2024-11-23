@@ -14,6 +14,14 @@ import { FromOperatorExample5Component } from './from-operator-example5/from-ope
 import { FromOperatorExample6Component } from './from-operator-example6/from-operator-example6.component';
 import { FromOperatorExample7Component } from './from-operator-example7/from-operator-example7.component';
 import { FromOperatorExample8Component } from './from-operator-example8/from-operator-example8.component';
+import { FromeventOperatorExample1Component } from './fromevent-operator-example1/fromevent-operator-example1.component';
+import { IntervalOperatorExample1Component } from './interval-operator-example1/interval-operator-example1.component';
+import { IntervalOperatorExample2Component } from './interval-operator-example2/interval-operator-example2.component';
+import { IntervalOperatorExample3Component } from './interval-operator-example3/interval-operator-example3.component';
+import { IntervalOperatorExample4Component } from './interval-operator-example4/interval-operator-example4.component';
+import { IntervalOperatorExample5Component } from './interval-operator-example5/interval-operator-example5.component';
+import { IntervalOperatorExample6Component } from './interval-operator-example6/interval-operator-example6.component';
+import { IntervalOperatorExample7Component } from './interval-operator-example7/interval-operator-example7.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +38,15 @@ import { FromOperatorExample8Component } from './from-operator-example8/from-ope
     FromOperatorExample5Component,
     FromOperatorExample6Component,
     FromOperatorExample7Component,
-    FromOperatorExample8Component
+    FromOperatorExample8Component,
+    FromeventOperatorExample1Component,
+    IntervalOperatorExample1Component,
+    IntervalOperatorExample2Component,
+    IntervalOperatorExample3Component,
+    IntervalOperatorExample4Component,
+    IntervalOperatorExample5Component,
+    IntervalOperatorExample6Component,
+    IntervalOperatorExample7Component
   ],
   imports: [
     CommonModule
@@ -49,7 +65,15 @@ import { FromOperatorExample8Component } from './from-operator-example8/from-ope
     FromOperatorExample5Component,
     FromOperatorExample6Component,
     FromOperatorExample7Component,
-    FromOperatorExample8Component
+    FromOperatorExample8Component,
+    FromeventOperatorExample1Component,
+    IntervalOperatorExample1Component,
+    IntervalOperatorExample2Component,
+    IntervalOperatorExample3Component,
+    IntervalOperatorExample4Component,
+    IntervalOperatorExample5Component,
+    IntervalOperatorExample6Component,
+    IntervalOperatorExample7Component
   ]
 })
 export class CreationOperatorsModule { }
