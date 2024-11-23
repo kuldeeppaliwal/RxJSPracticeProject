@@ -1,3 +1,11 @@
+// Complex Example: Simulating API Calls and Data Transformations
+
+/*
+Imagine you have a stream of user IDs, and for each ID, 
+you need to fetch the user's data, transform it,
+ and output the results.
+*/
+
 import { Component, OnInit } from '@angular/core';
 import { of, from } from 'rxjs';
 import { mergeMap, map, catchError, toArray } from 'rxjs/operators';
@@ -31,7 +39,7 @@ export class OfOperatorExample6Component implements OnInit {
       .pipe(
         mergeMap((id) =>
           from(fetchUserData(id)).pipe(
-            map((user:any) => ({
+            map((user: any) => ({
               ...user,
               ageCategory: user.age > 25 ? 'Senior' : 'Junior', // Add new field based on age
             })),

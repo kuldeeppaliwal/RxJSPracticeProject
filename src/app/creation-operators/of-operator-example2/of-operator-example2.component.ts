@@ -1,3 +1,5 @@
+// Emit Strings
+
 import { Component, OnInit } from '@angular/core';
 import { of } from 'rxjs';
 @Component({
@@ -10,10 +12,16 @@ export class OfOperatorExample2Component implements OnInit {
 
   ngOnInit(): void {
     const greetings$ = of('Hello', 'RxJS', 'World!');
-    
+
     greetings$.subscribe({
-      next: value => console.log(value),
-      complete: () => console.log('Completed!')
+      next: (value) => console.log(value),
+      complete: () => console.log('Completed!'),
     });
+
+    // Output:
+    // Hello
+    // RxJS
+    // World!
+    // Completed!
   }
 }

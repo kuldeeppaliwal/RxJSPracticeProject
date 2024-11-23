@@ -1,3 +1,5 @@
+// Combining with Operators
+
 import { Component, OnInit } from '@angular/core';
 import { of } from 'rxjs';
 import { map, filter } from 'rxjs/operators';
@@ -22,5 +24,10 @@ export class OfOperatorExample5Component implements OnInit {
         next: (value) => console.log(value),
         complete: () => console.log('Completed!'),
       });
+
+    // Output:
+    // 20
+    // 40
+    // Completed!
   }
 }
