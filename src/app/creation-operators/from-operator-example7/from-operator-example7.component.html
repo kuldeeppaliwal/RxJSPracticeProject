@@ -1,0 +1,8 @@
+<p>from-operator-example7 works!</p>
+
+<h1>User Details</h1>
+<ul>
+  <li *ngFor="let user of users">
+    {{ user.error ? user.error : user.name }} - {{ user.ageCategory }}
+  </li>
+</ul>
